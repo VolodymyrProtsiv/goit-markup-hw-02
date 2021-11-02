@@ -1,15 +1,55 @@
 /*Палітра */
-:root{
- --
-
-
-
+/*  палітра тексту
+    основний колір тексту --------- #212121
+    другорядний колрір тексту ----- #757575
+    колір тексту білий------------- #FFFFFF
+    колур акценту тексту ---------- #2196F3
+    палітра фонів 
+    колір акценту------------------ #2196F3
+    колір фону білий--------------- #FFFFFF
+    колір фону темний-------------- #2F303A
+    колір фону св-сірий------------ #F5F4FA */
+:root {
+  /* text-colores */
+  --pr-col-txt: #212121;
+  --second-col-txt: #757575;
+  --wite-col-txt: #ffffff;
+  --akcent-col-txt: #2196f3;
+  /* bg-colores */
+  --bg-akcent-col: #2196f3;
+  --bg-wite-col: #ffffff;
+  --bg-darck-col: #2f303a;
+  --bg-lightgrey-col: #f5f4fa;
 }
-body {
+
+* {
   font-family: "Roboto", sans-serif;
-  padding: 0;
-  margin: 0;
+  color: var(--pr-col-txt);
+  /* padding: 0; 
+  margin: 0;*/
 }
+
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Logo*/
+.logo {
+  color: var(--akcent-col-txt);
+}
+
+/* List */
+.list-item {
+  color: var(--pr-col-txt);
+}
+/* Якщо Ховер та Фокус через пробіл то непрацює у мене */
+.list-item:hover {
+  color: var(--akcent-col-txt);
+}
+.list-item:focus {
+  color: var(--akcent-col-txt);
 }
