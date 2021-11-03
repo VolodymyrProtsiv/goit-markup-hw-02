@@ -40,11 +40,28 @@ a {
 /* Logo*/
 .logo {
   color: var(--akcent-col-txt);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-var {
+  color: var(--pr-col-txt);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 /* List */
 .list-item {
   color: var(--pr-col-txt);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 /* Якщо Ховер та Фокус через пробіл то непрацює у мене */
 .list-item:hover {
@@ -53,3 +70,37 @@ a {
 .list-item:focus {
   color: var(--akcent-col-txt);
 }
+
+/* Button */
+.btn {
+  background-color: var(--bg-akcent-col);
+  color: var(--wite-col-txt);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+}
+
+/* Header */
+.list-item-contact {
+  color: var(--second-col-txt);
+}
+.active {
+  color: var(--akcent-col-txt);
+}
+
+/* Hero-section */
+.hero-sect-tittle {
+  background-color: var(--bg-darck-col);
+  color: var(--wite-col-txt);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Skills-section */
