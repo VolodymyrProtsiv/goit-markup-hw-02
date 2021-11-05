@@ -92,8 +92,11 @@ a {
 }
 
 /* Hero-section */
-.hero-sect-tittle {
+.hero-sect{
   background-color: var(--bg-darck-col);
+}
+.hero-sect-tittle {
+  
   color: var(--wite-col-txt);
   font-weight: 900;
   font-size: 44px;
@@ -114,4 +117,11 @@ a {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.skills-list-items-par{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--second-col-txt);
 }
