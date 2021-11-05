@@ -39,29 +39,29 @@ a {
 
 /* Logo*/
 .logo {
-  color: var(--akcent-col-txt);
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  color: var(--akcent-col-txt);
 }
 .logo-var {
-  color: var(--pr-col-txt);
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  color: var(--pr-col-txt);
 }
 
 /* List */
 .list-item {
-  color: var(--pr-col-txt);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: var(--pr-col-txt);
 }
 /* Якщо Ховер та Фокус через пробіл то непрацює у мене */
 .list-item:hover {
@@ -73,14 +73,14 @@ a {
 
 /* Button */
 .btn {
-  background-color: var(--bg-akcent-col);
-  color: var(--wite-col-txt);
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
+  background-color: var(--bg-akcent-col);
+  color: var(--wite-col-txt);
 }
 
 /* Header */
@@ -110,8 +110,6 @@ a {
 .skills-list-items-tittle {
   background-color: var(--bg-lightgrey-coll);
   color: var(--pr-col-txt);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -135,18 +133,28 @@ a {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--pr-col-txt);
 }
+
 
 /* Section Team*/
 .sct-team{
   background-color: var(--bg-wite-col);
 }
-.sct-team-list-tittle {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
+.sct-team-list-tittle{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--pr-col-txt);
+}
+
+
+/* Footer */
+footer{
+  background-color: var(--bg-darck-col);
+}
+
+.logo-footer{
+  color: var(--wite-col-txt);
 }
