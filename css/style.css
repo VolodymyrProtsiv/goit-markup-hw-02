@@ -183,7 +183,10 @@ address{
 
 
 
-/* PORTFOLIO HTML */
+/* PORTFOLIO  */
+.portfolio{
+  background-color: var(--bg-wite-col);
+}
 /* Filtr-Button */
 .filtr{
   background-color: var(--bg-wite-col);
