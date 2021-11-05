@@ -142,10 +142,10 @@ a {
 .sct-team{
   background-color: var(--bg-wite-col);
 }
-.sct-team-list-tittle{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+.sct-team-list-tittle {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--pr-col-txt);
