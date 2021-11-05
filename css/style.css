@@ -20,6 +20,8 @@
   --bg-wite-col: #ffffff;
   --bg-darck-col: #2f303a;
   --bg-lightgrey-col: #f5f4fa;
+  /* portfolio  */
+  --btn-pr-col:#F5F4FA;
 }
 
 * {
@@ -181,6 +183,51 @@ address{
 
 
 
-/* Portfolio-html */
+/* Portfolio */
+/* Filtr-Button */
+.filtr{
+  background-color: var(--bg-wite-col);
+}
+/* Btn-portfolio */
+.none{
+  border:none;
+}
+.item-btn{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--pr-col-txt);
+  background-color: var(--btn-pr-col);
+  border:none;  
+}
+/* Ховер та фокус непрацюють якщо разом */
+.item-btn:hover {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  background-color: var(--bg-akcent-col);
+  color: var(--wite-col-txt);
+  border:none; 
+
+}
+.item-btn:focus{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  background-color: var(--bg-akcent-col);
+  color: var(--wite-col-txt);
+  border:none; 
+}
+
+/* Portfolio list section */
+
 
 
