@@ -12,16 +12,12 @@
 :root {
   /* text-colores */
   --pr-col-txt: #212121;
+  --bg-dark-col: #2f303a;
   --second-col-txt: #757575;
-  --wite-col-txt: #ffffff;
-  --akcent-col-txt: #2196f3;
-  /* bg-colores */
-  --bg-akcent-col: #2196f3;
-  --bg-wite-col: #ffffff;
-  --bg-darck-col: #2f303a;
+  --bg-pr-col: #ffffff;
+  --accent-col: #2196f3;
   --bg-lightgrey-col: #f5f4fa;
-  /* portfolio  */
-  --btn-pr-col: #f5f4fa;
+  --tr-adress-col: rgba(255, 255, 255, 0.6);
 }
 
 * {
@@ -46,7 +42,7 @@
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--akcent-col-txt);
+  color: var(--accent-col);
 }
 .logo-var {
   font-family: Raleway;
@@ -69,7 +65,7 @@
 
 .list-item:hover,
 .list-item:focus {
-  color: var(--akcent-col-txt);
+  color: var(--accent-col);
 }
 
 /* Button */
@@ -80,23 +76,26 @@
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  background-color: var(--bg-akcent-col);
+  background-color: var(--accent-col);
   color: var(--wite-col-txt);
   border: none;
   cursor: pointer;
 }
 
 /* Header */
+.header {
+  background-color: var(--bg-pr-col);
+}
 .list-item-contact {
   color: var(--second-col-txt);
 }
 .active {
-  color: var(--akcent-col-txt);
+  color: var(--accent-col);
 }
 
 /* Hero-section */
 .hero-sect {
-  background-color: var(--bg-darck-col);
+  background-color: var(--bg-dark-col);
 }
 .hero-sect-tittle {
   color: var(--wite-col-txt);
@@ -139,7 +138,7 @@
 
 /* Section Team*/
 .sct-team {
-  background-color: var(--bg-wite-col);
+  background-color: var(--bg-lightgrey-col);
 }
 .sct-team-list-tittle {
   font-weight: 500;
@@ -159,8 +158,8 @@
 }
 
 /* Footer */
-footer {
-  background-color: var(--bg-darck-col);
+.footer {
+  background-color: var(--bg-dark-col);
 }
 address {
   font-style: normal;
@@ -202,11 +201,11 @@ address {
 }
 .item-btn:hover,
 .item-btn:focus {
-  background-color: var(--bg-akcent-col);
+  background-color: var(--accent-col);
   color: var(--wite-col-txt);
 }
 .btn-active {
-  background-color: var(--bg-akcent-col);
+  background-color: var(--accent-col);
   color: var(--wite-col-txt);
 }
 
