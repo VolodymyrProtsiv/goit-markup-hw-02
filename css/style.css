@@ -12,7 +12,7 @@
 :root {
   /* text-colores */
   --pr-col-txt: #212121;
-  --bg-dark-col: #2f303a;
+  --bg-second-col: #2f303a;
   --second-col-txt: #757575;
   --bg-pr-col: #ffffff;
   --accent-col: #2196f3;
@@ -102,7 +102,7 @@
 
 /* Hero-section */
 .hero-sect {
-  background-color: var(--bg-dark-col);
+  background-color: var(--bg-second-col);
 }
 .hero-sect-tittle {
   color: var(--bg-pr-col);
@@ -166,7 +166,7 @@
 
 /* Footer */
 .footer {
-  background-color: var(--bg-dark-col);
+  background-color: var(--bg-second-col);
 }
 .address {
   font-style: normal;
@@ -185,7 +185,7 @@
 
 /* PORTFOLIO  */
 .portfolio {
-  background-color: var(--bg-wite-col);
+  background-color: var(--bg-pr-col);
 }
 /* Filtr-Button */
 .filtr {
