@@ -18,6 +18,7 @@
   --accent-col: #2196f3;
   --bg-lightgrey-col: #f5f4fa;
   --tr-adress-col: rgba(255, 255, 255, 0.6);
+  --br-solid-col: #a1a1a1;
 }
 
 * {
@@ -230,5 +231,5 @@
   color: var(--second-col-txt);
 }
 .pl-tittle-list-item {
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--br-solid-col);
 }
