@@ -17,7 +17,7 @@
   --bg-pr-col: #ffffff;
   --accent-col: #2196f3;
   --bg-lightgrey-col: #f5f4fa;
-  --tr-adress-col: rgba(255, 255, 255, 0.6);
+  --link-col: rgba(255, 255, 255, 0.6);
   --br-solid-col: #a1a1a1;
 }
 
@@ -183,6 +183,9 @@
 .foot-address {
   font-style: normal;
 }
+.footer-link {
+  color: var(--link-col);
+}
 
 /* PORTFOLIO  */
 .portfolio {
@@ -233,3 +236,4 @@
 .pl-tittle-list-item {
   border: 1px solid var(--br-solid-col);
 }
+/* Portfolio footer link */
