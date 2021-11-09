@@ -95,7 +95,7 @@
   background-color: var(--bg-pr-col);
 }
 .list-item-contact {
-  color: var(--second-col-txt: );
+  color: var(--second-col-txt);
 }
 .active {
   color: var(--accent-col);
@@ -184,6 +184,7 @@
   font-style: normal;
 }
 .footer-link {
+  font-weight: normal;
   color: var(--link-col);
 }
 
